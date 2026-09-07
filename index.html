@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Плитка Роутер -->
+      <a href="http://192.168.1.1/admin/index.html#/home" target="_blank" rel="noopener noreferrer" class="tile tile-router">
+        <img src="images/router.png" alt="">
+        <span class="label">Роутер</span>
+      </a>
+
+      <!-- Плитка Zabbix -->
+      <a href="http://192.168.1.202/zabbix" target="_blank" rel="noopener noreferrer" class="tile tile-zabbix">
+        <img src="images/zabbix.png" alt="">
+        <span class="label">Zabbix</span>
+      </a>
+
+      <!-- Плитка Grafana -->
+      <a href="http://192.168.1.202:3000/dashboards" target="_blank" rel="noopener noreferrer" class="tile tile-grafana">
+        <img src="images/grafana.png" alt="">
+        <span class="label">Grafana</span>
+      </a>
+
+      <!-- Плитка Prometheus -->
+      <a href="http://192.168.1.202:9090/graph" target="_blank" rel="noopener noreferrer" class="tile tile-prometheus">
+        <img src="images/prometheus.png" alt="">
+        <span class="label">Prometheus</span>
+      </a>
+    </div>
+  </body>
+</html>
